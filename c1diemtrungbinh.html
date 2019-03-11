@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính điểm trung bình </title>
+</head>
+<body>
+    <script>
+        var vatLy; hoaHoc; sinhHoc;
+        var vatLy = parseInt(prompt("Mời Nhập điểm môn Vật Lý: "));
+        var hoaHoc = parseInt(prompt("Mời nhập điểm môn Hóa Học: "));
+        var sinhHoc = parseInt(prompt("Mời nhập điểm môn Sinh Học: "));
+        var tong = vatLy + hoaHoc + sinhHoc;
+            document.write("Tổng điểm 3 môn là : " +tong + "<br/>");
+        var diemTB = tong/3;
+            document.write("Điểm trung bình là: " +diemTB + "<br/>");
+    </script>
+</body>
+</html>
